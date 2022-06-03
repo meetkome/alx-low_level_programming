@@ -1,18 +1,41 @@
 #include <stdio.h>
 
+
+
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 
+
 int main(void)
+
 {
 
-printf("Size of a char: %2d byte(s)\n" ,sizeof( char));
-printf("Size of an int:  %2d byte(s) \n ", sizeof(int)); 
-Printf("Size of a long int: %2d byte(s) \n ", sizeof(long int));
-Printf("Size of a long  long int: %2d byte(s) \n ", sizeof(long long int));
-Printf("Size of a float: %2d byte(s) \n ", sizeof(float));
-return (0);
+	char forchar;
+
+	int forint;
+
+	long forlong;
+
+	long long forlonglong;
+
+	float forfloat;
+
+
+
+	printf("Size of a char: %lu byte(s)\n", sizeof(forchar));
+
+	printf("Size of an int: %lu byte(s)\n", sizeof(forint));
+
+	printf("Size of a long int: %lu byte(s)\n", sizeof(forlong));
+
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(forlonglong));
+	printf("Size of a float: %lu byte(s)\n", sizeof(forfloat));
+
+
+
+	return (0);
+
 }
