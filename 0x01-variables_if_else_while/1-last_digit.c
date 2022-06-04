@@ -29,7 +29,7 @@ if (p > 5)
 
 else if (p == 0)
 {
-	printf("Last digit of %d is %d and is \n", n, p);
+	printf("Last digit of %d is %d and is 0\n", n, p);
 }
 
 else if (p < 6 && p != 0)
