@@ -10,7 +10,7 @@
 int main(void)
 {
 	int n = 0;
-while (n >= 99)
+while (n <= 99)
 {
 	putchar(n / 10 + '0');
 	putchar(n % 10 + '0');
@@ -20,6 +20,8 @@ if (n != 99)
 	putchar(' ');
 }
 n++;
+}
+}
 }
 putchar('\n');
 return (0);
