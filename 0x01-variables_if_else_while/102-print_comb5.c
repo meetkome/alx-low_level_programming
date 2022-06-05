@@ -16,7 +16,7 @@ if (ch != 99)
 	putchar(',');
 	putchar(' ');
 }
-ch++;
+ch--;
 }
 putchar('\n');
 return (0);
