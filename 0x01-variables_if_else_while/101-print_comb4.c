@@ -21,8 +21,6 @@ if (n != 99)
 }
 n++;
 }
-}
-}
 putchar('\n');
 return (0);
 }
