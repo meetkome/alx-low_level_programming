@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int ch;
+	int ch = 0;
 while (ch <= 99)
 {
 	putchar(ch / 10 + '0');
