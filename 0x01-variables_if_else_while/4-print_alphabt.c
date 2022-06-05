@@ -9,10 +9,10 @@
 int main(void)
 {
 char(ch);
-char space = '\n'
+char space = '\n';
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-for (ch != 'q' && ch != 'e')
+for (ch != 'e' && ch != 'q')
 	putchar(ch);
 }
 putchar(space);
