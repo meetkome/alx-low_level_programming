@@ -20,6 +20,7 @@ for (p = n + 1 ; p <= 9 ; p++)
 if (n < 8)
 {
 	putchar(',');
+	putchar(' ');
 }
 }
 }
