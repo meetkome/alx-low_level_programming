@@ -19,5 +19,5 @@ for (ch = 'A' ; ch <= 'Z' ; ch++)
 }
 
 putchar(space);
-return(0);
+return (0);
 }
