@@ -17,7 +17,7 @@ for (n =0 ; n < 10 ; n++)
 if (n < 9)
 {
 	putchar(',');
-	putchat(' ');
+	putchar(' ');
 }
 }
 putchar('\n');
