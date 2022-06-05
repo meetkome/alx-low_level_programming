@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int x, y, z;
+	int n = 0;
 
 while (n <= 99)
 {
