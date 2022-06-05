@@ -23,12 +23,11 @@ for (z = 0; z < 10 ; z++)
 
 if (x == 7 && y == 8 && z == 9)
 	continue;
-{
 	putchar(',');
 	putchar(' ');
-}
-}
-}
+	}
+	}
+	}
 	putchar('\n');
 
 	return (0);
