@@ -15,7 +15,7 @@ for (ch = 'a' ; ch <= 'z' ; ch++)
 }
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-	putchar(toupper(ch));
+	putchar(ch);
 }
 
 putchar(space);
