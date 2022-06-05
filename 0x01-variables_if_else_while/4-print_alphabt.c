@@ -12,7 +12,7 @@ char(ch);
 char space = '\n';
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-for (ch != 'e' && ch != 'q')
+if (ch != 'e' && ch != 'q')
 	putchar(ch);
 }
 putchar(space);
