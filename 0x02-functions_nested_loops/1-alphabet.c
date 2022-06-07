@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - prints alphabets in lowercase
- * @n: The character
+ *
  * Return: void
  *
  */
