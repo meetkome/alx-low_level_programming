@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - Entry point
  *
  *
- * Return: Always o
+ * Return: void
  *
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char n;
 	for (n = 'a'; n <= 'z'; n++)
@@ -16,6 +16,4 @@ int main(void)
 		_putchar(n);
 	}
 	_putchar('\n');
-
-	     return (0);
 }
