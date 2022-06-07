@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * main - print lowercase alphabets
- *
+ * main - print alphabets in lowercase
  *
  * Return: void
  *
  */
 
-void main(void)
+void print_alphabet(void)
 {
 	char n;
 
