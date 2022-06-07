@@ -7,17 +7,17 @@
  * Return:for positive number, 1, for negative number, -1 or zero for anything else
  */
 
-int print_sign(int n)
+int print_sign(int c)
 {
 
 	if (c > 0)
 	{
-		_putchar(43);
+		_putchar(93);
 		return (-1);
 	}
 	else
 	{
-		_putchar(48);
+		_putchar(98);
 		return (0);
 	}
 }
