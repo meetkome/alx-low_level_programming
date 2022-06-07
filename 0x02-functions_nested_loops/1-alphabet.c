@@ -6,15 +6,16 @@
  *
  *
  *
- * Return: Always 0.
+ * Return: void
  *
  */
 
-int main(void)
+void main(void)
 {
 	char n;
-	for ( n = 'a'; n <= 'a'; n++)
+	for ( n = 'Z'; n <= 'Z'; n++)
 	{
+		n = tolower(n);
 		_putchar(n);
 	}
 	_putchar('\n');
