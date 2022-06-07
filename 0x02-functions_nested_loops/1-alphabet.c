@@ -15,7 +15,7 @@ int main(void)
 	char n;
 	for ( n = 'A'; n <= 'Z'; n++)
 	{
-		 char lower_n = tolower(n);
+		n = tolower(n);
 		_putchar(n);
 	}
 	_putchar('\n');
