@@ -13,11 +13,15 @@ int print_sign(int c)
 	if (c > 0)
 	{
 		_putchar(93);
-		return (-1);
+		return (1);
 	}
+	else if (c < 0)
+	{
+		_putchar(95);
+		return (-1);
 	else
 	{
-		_putchar(98);
+		_putchar(48);
 		return (0);
 	}
 }
