@@ -7,10 +7,10 @@
  * Return: 1 if lowercase, 0 if uppercase
  */
 
-int_islower(int n)
+int _islower(int n)
 {
 
-	if (n >= 'a' && c <= 'z')
+	if (n >= 'a' && n <= 'z')
 		return (1);
 	else
 		return (0);
