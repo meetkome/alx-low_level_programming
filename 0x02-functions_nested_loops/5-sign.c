@@ -19,6 +19,7 @@ int print_sign(int c)
 	{
 		_putchar(95);
 		return (-1);
+	}
 	else
 	{
 		_putchar(48);
