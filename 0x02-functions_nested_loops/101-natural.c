@@ -11,14 +11,10 @@ int main(void)
 	int i = 0;
 	int x = 0;
 
-	while (i < 1024)
-{
+for  (i = 1; i < 1024 ; i++)
 	if ((i % 3 == 0) || (i % 5 == 0))
 {
 	x = x + 1;
-}
-
-	i++;
 }
 
 printf("%d\n", x);
