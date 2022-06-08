@@ -22,4 +22,5 @@ int main(void)
 	sec = next;
 }
 printf("\nThe Sum of Fibonacci Series Numbers = %d\n", sum);
+return (0);
 }
