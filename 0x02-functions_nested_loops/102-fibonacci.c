@@ -9,18 +9,16 @@
 
 int main(void)
 {
-	int num, first = 0, sec = 1, next = 0, sum = 50;
-printf("Enter Maximum Number for Fibonacci Series = ");
-	scanf("%d", &num);
-	printf("first %d Fibonacci Series Numbers:\n", num);
-	while (first <= num)
+	int num, first = 1, sec = 2, sum = 50;
+	for (num = 1; num <= (sum / 2); num++)
+
 {
-	printf("%d ", first);
-	sum = sum + first;
-	next = first + sec;
-	first = sec;
-	sec = next;
+	printf("%li %li ", first, sec);
+	first += sec;
+	sec += first;
 }
-printf("\nThe Sum of Fibonacci Series Numbers = %d\n", sum);
+if (sum % 2 == 1)
+printf("%li", a);
+printf("\n");
 return (0);
 }
