@@ -26,7 +26,7 @@ if (z <= 9)
 else
 {
 	_putchar((z / 10) + 48);
-	_putchat((z % 10) + 48);
+	_putchar((z % 10) + 48);
 }
 }
 _putchar('\n');
