@@ -9,16 +9,16 @@
 
 int main(void)
 {
-	int num, first = 1, sec = 2, sum = 50;
+	int num, b = 1, c = 2, sum = 50;
 	for (num = 1; num <= (sum / 2); num++)
 
 {
-	printf("%li %li ", first, sec);
-	first += sec;
-	sec += first;
+	printf("%li %li ", b, c);
+	b += c;
+	c += b;
 }
 if (sum % 2 == 1)
-printf("%li", a);
+printf("%li", b);
 printf("\n");
 return (0);
 }
