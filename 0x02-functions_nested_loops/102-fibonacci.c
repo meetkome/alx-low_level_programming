@@ -10,10 +10,10 @@
 int main(void)
 {
 	int num, first = 0, sec = 1, next = 0, sum = 0;
-printf("Enter Maximum Number for Fibonacci Series = 50");
+printf("Enter Maximum Number for Fibonacci Series = ");
 	scanf("%d", &num);
-	printf("first %d Fibonacci Series Numbers:\n", num);
-	while ( first <= num)
+	printf("first %50d Fibonacci Series Numbers:\n", num);
+	while (first <= num)
 {
 	printf("%d ", first);
 	sum = sum + first;
