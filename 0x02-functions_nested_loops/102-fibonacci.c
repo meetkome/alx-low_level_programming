@@ -11,8 +11,8 @@ int main(void)
 {
 	int num, first = 0, sec = 1, next = 0, sum = 0;
 printf("Enter Maximum Number for Fibonacci Series = ");
-	scanf("%d", &num);
-	printf("first %50d Fibonacci Series Numbers:\n", num);
+	scanf("50", &num);
+	printf("first 50 Fibonacci Series Numbers:\n", num);
 	while (first <= num)
 {
 	printf("%d ", first);
