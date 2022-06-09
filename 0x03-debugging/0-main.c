@@ -1,7 +1,8 @@
 #include "main.c"
 
 /**
- * main - tests the function that prints if integer is postive or negative gives the correct when given a case of 0
+ * main - tests the function that prints if integer is postive or negative gives the correct output when given a case of 0
+ *
  * Return: 0
  *
  */
