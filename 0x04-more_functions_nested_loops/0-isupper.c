@@ -4,17 +4,17 @@
 /**
  * main - check for uppercase
  * @c: variable
- * Return: 0
+ * Return: 1 if uppercase
  */
 
 int _isupper(int c)
 {
-	char c;
-	c = 'C';
-	printf("Return value when uppercase character %c is passed to isupper(): %d", c, isupper(c));
-
-	c = '+';
-	printf("\nReturn value when another character %c is passed to is isupper(): %d", c, isupper(c))
-
+	if (c >= 'A' && c <='Z')
+{
+	return (1);
+}
+else
+{
 	return (0);
+}
 }
