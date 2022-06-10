@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - tests function that prints if integer is positive_or_negative gives the correct output when given a case of 0
- *
+ * main - tests function that prints if integer is positive_or_negative
  * Return: 0
  */
 
