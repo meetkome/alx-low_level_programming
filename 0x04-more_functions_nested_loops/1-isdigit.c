@@ -3,6 +3,7 @@
 /**
  * _isdigit - checks for a digit (0 through 9).
  * @c: digit to check
+ *
  * Return: 1 if True and 0 if false
  */
 
