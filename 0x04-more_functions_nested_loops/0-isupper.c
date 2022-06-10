@@ -3,13 +3,13 @@
 
 /**
  * main - check for uppercase
- * @a: variable
+ * @c: variable
  * Return: 0
  */
 
-int _isupper(int a)
+int _isupper(int c)
 {
-	if (a >= 'A' && a <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
