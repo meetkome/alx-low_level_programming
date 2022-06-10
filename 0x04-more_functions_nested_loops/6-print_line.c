@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - function that draws a straight line in the terminal
+ * print_line - function that prints underscore n times
  *
  * @n: variable to hold numbers
  * Return: void
