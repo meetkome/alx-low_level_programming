@@ -1,5 +1,5 @@
-#include "main.h"
-
+#include "math.h"
+#include <stdio.h>
 /**
  * main - finds and print the largest prim factor of the number 612852475143
  *followed by a new line
