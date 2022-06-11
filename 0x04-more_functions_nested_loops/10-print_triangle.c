@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_triangle - function that prints a triangle
+ * print_triangle - Function that prints triangle
+ *
  * @size: size of triangle
  *
  * Return: void
  */
 
 void print_triangle(int size)
-
 {
 if (size > 0)
 {
