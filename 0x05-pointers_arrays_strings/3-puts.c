@@ -6,7 +6,7 @@
  * @sre: to be printed
  */
 
-void _pus(char *str)
+void _puts(char *str)
 {
 	while (*str)
 
