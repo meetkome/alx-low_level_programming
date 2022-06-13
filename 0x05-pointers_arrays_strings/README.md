@@ -1,1 +1,1 @@
-Av readme file for pointer and arrays
+a readme file for pointer and array

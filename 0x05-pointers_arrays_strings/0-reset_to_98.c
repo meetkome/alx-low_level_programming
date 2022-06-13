@@ -1,10 +1,10 @@
-#include "main.h"
+#include <main.h>
 
 /**
- * reset_to_98 - takes a pointer to an int as parameter and updates the value it points to to 98
+ * reset_to_98 - Takes pointer to an int
  * @n: puntero
- *
  * Return: 0
+ *
  */
 
 void reset_to_98(int *n)
