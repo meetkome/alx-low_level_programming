@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * swat_int - a function that swaps the values of two integers.
+ * swap_int - a function that swaps the values of two integers.
  * @a: first swapped value
  * @b: second swapped value
  *
@@ -11,7 +11,7 @@
 void swap_int(int *a, int *b)
 {
 
-int temp = *a;
+int x = *a;
 *a = *b;
-*b = temp;
+*b = x;
 }
