@@ -21,4 +21,4 @@ void rev_string(char *s)
 		s[r_s] = character;
 		p--;
 	}
-
+}
