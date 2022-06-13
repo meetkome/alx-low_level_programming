@@ -3,14 +3,15 @@
 
 /**
  * swat_int - a function that swaps the values of two integers.
- * @a: evaluated value
- * @b: evaluated value
+ * @a: first swapped value
+ * @b: second swapped value
  *
  * Return
  */
 void swap_int(int *a, int *b)
 {
-int n = *a;
+
+int temp = *a;
 *a = *b;
-*b = n;
+*b = temp;
 }
