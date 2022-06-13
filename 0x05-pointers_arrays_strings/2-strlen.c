@@ -4,14 +4,16 @@
 /**
  * _strlen - Returns the length of a string
  * @s: value to be evaluated
- * Return
+ * Return: size of string
  */
 int _strlen(char *s)
 {
 	int len = 0;
-	while (*s != '\0')
+	int i = 0;
+
+	while (*s[i] != '\0')
 	{
-		s++;
+		i++;
 		len++;
 	}
 	return (len);
