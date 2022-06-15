@@ -13,8 +13,8 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *dest = "hello";
-	char *src = "world";
+	char *dest;
+	char *src;
 	strcat(dest,src);
 	printf("Concatenated String: %s\n", dest);
 	return (0);
