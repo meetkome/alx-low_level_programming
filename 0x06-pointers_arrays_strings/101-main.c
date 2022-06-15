@@ -1,3 +1,9 @@
+#include "main.h"
+/**
+ * main - check code
+ * Returns: 0
+ */
+
 int main(void)
 {
 print_number(98);
