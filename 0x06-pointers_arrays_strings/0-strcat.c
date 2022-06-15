@@ -22,8 +22,8 @@ char *_strcat(char *dest, char *src)
 	}
 	while ((*(dest + x) = *(src + y)))
 	{
-		x++
-		y++
+		x++;
+		y++;
 	}
 	return (dest);
 }
