@@ -6,8 +6,8 @@
  * _strcat - This function appends the src string to the dest string, 
  * overwriting the terminating null byte (\0) at the end of dest, 
  * and then adds a terminating null byte
- * @hello: first string to be cat
- * @world: second string to cat
+ * @dest: first string to be cat
+ * @src: second string to cat
  *
  * Return: pointer to the resulting string dest
  */
