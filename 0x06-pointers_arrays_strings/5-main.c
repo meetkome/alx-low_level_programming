@@ -9,8 +9,8 @@
 
 int main(void)
 {
-	char str[] = "Look up!\n"
-		char *ptr;
+	char str[] = "Look up!\n";
+	char *ptr;
 
 	ptr = string_toupper(str);
 
