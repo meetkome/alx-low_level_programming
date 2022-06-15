@@ -18,7 +18,7 @@ void print_number(int n)
 	{
 		if (n / y == 0)
 			continue;
-		else;
+		else
 		{
 			j = (-(n / y) % 10);
 			if (j < 0)
