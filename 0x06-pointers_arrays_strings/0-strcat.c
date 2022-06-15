@@ -13,10 +13,18 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *dest;
-	char *src;
-	strcat(dest,src);
-	printf("Concatenated String: %s\n", dest);
-	return (0);
+	int x, y;
+
+	x = y = 0;
+	while (*(dest + x))
+	{
+		x++;
+	}
+	while ((*(dest + x) = *(src + y)))
+	{
+		x++
+		y++
+	}
+	return (dest);
 }
 
