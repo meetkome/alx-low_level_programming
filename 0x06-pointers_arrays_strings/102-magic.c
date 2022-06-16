@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - check code
+ * magic - check code
+ * @n: variable
  * Return: 0
  */
 int magic(int n)
