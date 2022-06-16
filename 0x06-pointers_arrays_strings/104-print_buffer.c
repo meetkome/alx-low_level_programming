@@ -35,7 +35,7 @@ for (i = 0; i < 10; i++)
 {
 if ((i + x) >= size)
 break;
-else if (*(b + i + x) >= 31 &&		
+else if (*(b + i + x) >= 31 &&
 	*(b + i + x) <= 126)
 printf("%c", *(b + i + x));
 else
