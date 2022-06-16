@@ -9,7 +9,7 @@
 void print_number(int n)
 {
 	int count, y, j;
-	
+
 	y = 1000000000;
 	if (n == 0)
 		_putchar('0');
