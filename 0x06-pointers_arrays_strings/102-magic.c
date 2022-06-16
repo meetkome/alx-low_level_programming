@@ -1,6 +1,9 @@
 #include <stdio.h>
-
-int magic(void)
+/**
+ * main - check code
+ * Return: 0
+ */
+int magic(int n)
 {
 	int n;
 	int a[5];
