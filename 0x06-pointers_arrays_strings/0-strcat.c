@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _strcat - This function appends the src string to the dest string, 
- * overwriting the terminating null byte (\0) at the end of dest, 
- * and then adds a terminating null byte
- * @dest: first string to be cat
- * @src: second string to cat
+ * _strcat - function that concatenates two strings.
+ * @dest: destination
+ * @src: source
  *
  * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int i; 
+	int j;
+
 	i = 0;
 	j = 0;
 
@@ -19,6 +19,7 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
+
 	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
