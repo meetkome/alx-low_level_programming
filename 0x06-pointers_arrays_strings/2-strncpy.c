@@ -1,5 +1,5 @@
 #include "main.h"
-int main(void)
+`
 /**
  * _strncpy -  copies a string.
  * @dest: char pointer variable destination
