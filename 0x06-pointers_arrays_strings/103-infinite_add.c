@@ -12,7 +12,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 int m, n, o, p, q, r;
 
-for (m = 0; n1[i];mi++);
+for (m = 0; n1[m];m++);
 for (n = 0; n2[n]; n++);
 if (m > size_r || n > size_r)
 	return (0);
@@ -42,6 +42,3 @@ for (o -= 1, p = 0; p < o; o--, p++)
 }
 return (r);
 }
-
-
-
