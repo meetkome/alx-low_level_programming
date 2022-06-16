@@ -10,35 +10,36 @@
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-int m, n, o, p, q, r;
+int i, j, k, l, m, n;
 
-for (m = 0; n1[m];m++);
-for (n = 0; n2[n]; n++);
-if (m > size_r || n > size_r)
+for (i = 0; n1[i]; i++);
+for (j = 0; n2[j]; j++)
+	;
+if (i > size_r || j > size_r)
 	return (0);
-q = 0;
-for (m -= 1, n -= 1, o = 0; o < size_r - 1; m--, n--, o++)
+m = 0;
+for (i -= 1, j -= 1, k = 0; k < size_r - 1; i--, j--, k++)
 {
-	r = q;
-if (m >= 0)
-	r += n1[m] - '0';
-if (n >= 0)
-	r += n2[n] - '0';
-if (m < 0 && n < 0 && r == 0)
+	n = m;
+if (i >= 0)
+	n += n1[i] - '0';
+if (j >= 0)
+	n += n2[j] - '0';
+if (i < 0 && j < 0 && n == 0)
 {
 	break;
 }
-q = r / 10;
-r[o] = r % 10 + '0';
+m = n / 10;
+r[k] = n % 10 + '0';
 }
-r[o] = '\0';
-if (m >= 0 || n >= 0 || q)
+r[k] = '\0';
+if (i >= 0 || j >= 0 || m)
 	return (0);
-for (o -= 1, p = 0; p < o; o--, p++)
+for (k -= 1, l = 0; l < k; k--, l++)
 {
-	q = r[o];
-	r[o] = r[p];
-	r[p] = q;
+m = r[k];
+r[k] = r[l];
+r[l] = m;
 }
 return (r);
 }
