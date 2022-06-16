@@ -7,17 +7,25 @@
  * @dest: first string to be cat
  * @src: second string to cat
  *
- * Return: pointer to the resulting string dest
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
-	int len1, len2;
+	int i, j;
+	i = 0;
+	j = 0;
 
-	for (len1 = 0; dest[len1] != '\0'; len1++)
-	;
-	for (len2 = 0; src[len2] != '\0'; len2++)
-		dest[len1 + len2] = src[len2];
-	dest[len1 + len2] = '\0';
+	while (dest[i] != '\0')
+	{
+		i++;
+	}
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		j++;
+		i++;
+	}
+	dest[i] = '\0';
 	return (dest);
 }
 
