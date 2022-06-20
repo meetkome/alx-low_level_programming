@@ -9,10 +9,10 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	char *ch = s;
+	char *c = s;
 
-	ch = strpbrk/(s, accept);
-	s = ch;
+	c = strpbrk(s, accept);
+	s = c;
 
 	return (s);
 }
