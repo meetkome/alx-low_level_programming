@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * is_prime_number - checkfor prime number
- * @a: interger parameter
+ * is_prime_number - check for prime number
+ * @n: interger parameter
  * Return: 1 if prime else return 0
  */
 
@@ -13,6 +13,7 @@ int is_prime_number(int n)
 	int half = n / 2;
 	int temp = 0;
 	if (n <= 1)
+
 	{
 		return (0);
 	}
