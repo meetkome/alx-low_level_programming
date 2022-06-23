@@ -2,8 +2,8 @@
 
 /**
  * factorial - factorial n
- * @n: int
- * Returns: recursion
+ * @n: int arams
+ * Return: recursion
  */
 
 int factorial(int n)
