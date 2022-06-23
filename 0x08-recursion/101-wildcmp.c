@@ -2,8 +2,8 @@
 
 /**
  * wildcmp - Compares two strings
- * @s1: pointer to string params
- * @s2: pointer to string param
+ * @s1: pointer to string parameters
+ * @s2: pointer to string parameters
  * Return: 0
  */
 
@@ -25,5 +25,5 @@ int wildcmp(char *s1, char *s2)
 	{
 		return (wildcmp(s1 + 1, s2 + 1));
 	}
-	return (wildcmp(s1 + 1, s2 + 1));
+	return (0);
 }
