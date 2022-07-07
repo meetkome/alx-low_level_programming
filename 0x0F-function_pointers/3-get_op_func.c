@@ -1,23 +1,29 @@
-#ifndef CALC_H
-#define CALC_H
+#include "3-calc.h"
+#include <stdlib.h>
 
 /**
- * struct op - A struct op.
- * Description: a header file that contains all function prototypes
- * @op: The operator.
- * @f: The associated function.
+ * get_op_func - a file that selects the correct function to perform
+ *               the operation asked by the user.
+ * @s: The operator passed as argument.
+ *
+ * Return: A pointer to the function corresponding
+ *         to the operator given as a parameter.
  */
-typedef struct op
+
+int (*get_op_func(char *s))(int, int)
 {
-	char *op;
-	int (*f)(int a, int b);
-} op_t;
+	op_t ops[] = {
+		{"+", op_add},
+		{"-", op_sub},
+		{"*", op_mul},
+		{"/", op_div},
+		{"%", op_mod},
+		{NULL, NULL}
+	};
+	int i = 0;
 
-int op_add(int a, int b);
-int op_sub(int a, int b);
-int op_mul(int a, int b);
-int op_div(int a, int b);
-int op_mod(int a, int b);
-int (*get_op_func(char *s))(int, int);
+	while (ops[i].op != NULL && *(ops[i].op) != *s)
+		i++;
 
-#endif
+	return (ops[i].f);
+}
